@@ -2,3 +2,120 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+// Importing Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Homepage Styling
+
+// Variables for consistent colors and fonts
+$bg-light: #EADDCB;
+$bg-secondary: #f5f0e8;
+$text-primary: #000;
+$text-white: #fff;
+
+// Text body styles
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: $text-primary;
+}
+
+// Navbar styling
+.navbar {
+  background-color: $bg-light;
+
+  .navbar-brand, .nav-link {
+    color: $text-primary !important;
+    &:hover {
+      color: darken($text-primary, 20%);
+    }
+  }
+}
+
+// Hero Section styles
+.hero {
+  background-color: #fdfdfd;
+  padding: 3rem 1rem;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: darken($text-primary, 10%);
+  }
+}
+
+// Project Goals styles
+.project-card {
+  background-color: $bg-secondary;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  h5 {
+    background-color: $text-primary;
+    color: $text-white;
+    padding: 0.75rem;
+    margin: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    p {
+      font-size: 0.9rem;
+      color: darken($text-primary, 20%);
+    }
+  }
+
+  img {
+    border-bottom: 2px solid lighten($bg-light, 15%);
+  }
+}
+
+// History Section styles
+.history-section {
+  margin-top: 2rem;
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: lighten($text-primary, 10%);
+  }
+
+  img {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+}
+
+// Footer styles
+.footer {
+  background-color: $text-primary;
+  color: $text-white;
+  text-align: center;
+  padding: 1rem 0;
+
+  a {
+    color: $text-white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

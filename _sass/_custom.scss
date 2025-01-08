@@ -3,16 +3,7 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-// Importing Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
 
-// Homepage Styling
-
-// Variables for consistent colors and fonts
-$bg-light: #EADDCB;
-$bg-secondary: #f5f0e8;
-$text-primary: #000;
-$text-white: #fff;
 
 // Text body styles
 body {

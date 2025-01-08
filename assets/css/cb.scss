@@ -11,6 +11,7 @@ $base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
 $text-color: {{ site.data.theme.text-color | default: '""' }};
 $link-color: {{ site.data.theme.link-color | default: '""' }};
 
+
 /* theme colors pulled from config-theme-colors */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
 {% if btns != empty %}
@@ -29,5 +30,11 @@ $theme-colors: map-merge(
 );
 @import "theme-colors", "theme-utilities";
 {% endif %}
+
+// Variables for consistent colors and fonts
+$bg-light: #EADDCB;
+$bg-secondary: #f5f0e8;
+$text-primary: #000;
+$text-white: #fff;
 
 @import "base", "pages", "custom";

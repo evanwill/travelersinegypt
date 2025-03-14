@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 travelers,Traveler,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
+date,Date,,,DCTERMS.date,dateCreated
 summary,Summary,,,DCTERMS.description,description
 location,Location,,,,contentLocation
 latitude,Latitude,,,,

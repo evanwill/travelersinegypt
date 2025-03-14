@@ -1,14 +1,14 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-title,Title,,,
-travelers,Traveler,,,
+title,Title,,,Title
+travelers,Traveler,,,Traveler
 summary,Summary,,,
-nationality,Nationality,,,
-gender,Gender,,,
+nationality,Nationality,,,Nationality
+gender,Gender,,,Gender
 travel_dates,Travel Dates,,,
-publisher,Publisher,,,
-publication_place,Publication Place,,,
-publication_date,Publication Date,,,
+publisher,Publisher,,,Publisher
+publication_place,Publication Place,,,Publication Place
+publication_date,Publication Date,,,Publication Date
 publisher_misc,Publication Details,,,
-travel_year_min,Travel Began,,,
-travel_year_max,Travel Ended,,,
+travel_year_min,Travel Began,,,Travel Began
+travel_year_max,Travel Ended,,,Travel Ended

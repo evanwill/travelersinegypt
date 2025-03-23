@@ -1,6 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 travelers,Traveler,,,DCTERMS.creator,creator
+nationality,Nationality,,,,
+gender,Gender,,,,
 date,Date,,,DCTERMS.date,dateCreated
 summary,Summary,,,DCTERMS.description,description
 location,Location,,,,contentLocation
@@ -11,8 +13,6 @@ identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
-nationality,Nationality,,,,
-gender,Gender,,,,
 travel_dates,Travel Dates,,,,
 publisher,Publisher,,,DCTERMS.publisher,publisher
 publication_place,Publication Place,,,,

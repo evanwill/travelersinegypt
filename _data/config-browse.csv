@@ -1,9 +1,9 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 travelers,Traveler,true,,Traveler
-summary,Summary,,,
 nationality,Nationality,true,,Nationality
 gender,Gender,true,,Gender
+summary,Summary,,,
 travel_dates,Travel Dates,,,
 publisher,Publisher,true,,Publisher
 publication_place,Publication Place,,,Publication Place
